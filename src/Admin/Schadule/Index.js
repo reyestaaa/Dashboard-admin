@@ -33,7 +33,7 @@ function Index(props) {
                             <div className="card bg-info col-md-12 shadow border-0">
                                 <div className="card-body d-flex justify-content-between">
                                     <div className="title">
-                                        <Link className="fs-4 text-decoration-none text-dark fw-bold" to="/schadule/content">Bisnis Analisi</Link>
+                                        <Link className="fs-4 text-decoration-none text-dark fw-bold" to="/schadule/content">Business Analyst</Link>
                                         <p>20 - 31 March 2022   </p>
                                         <br />
                                         <p>Close registration : 19 March 2022</p>                    
@@ -160,7 +160,7 @@ function Index(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card bg-info col-md-12 shadow border-0">
+                            {/* <div className="card bg-info col-md-12 shadow border-0">
                                 <div className="card-body d-flex justify-content-between">
                                     <div className="title">
                                         <Link className="fs-4 text-decoration-none text-dark fw-bold" to="/schadule/content">Bisnis Analisi</Link>
@@ -419,7 +419,7 @@ function Index(props) {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>

@@ -16,7 +16,7 @@ function Content(props) {
                             <a className="nav-link fw-bold border-0 fs-5 active" id="detail-program-tab" data-bs-toggle="tab" data-bs-target="#detail-program" type="button" role="tab" aria-controls="detail-program" aria-selected="true">Detail Program</a>
                         </li>
                         <li className="nav-item" role="presentation">
-                            <a className="nav-link fw-bold border-0 fs-5" id="partisipan-tab" data-bs-toggle="tab" data-bs-target="#partisipan" type="button" role="tab" aria-controls="partisipan" aria-selected="false">Partisipan</a>
+                            <a className="nav-link fw-bold border-0 fs-5" id="partisipan-tab" data-bs-toggle="tab" data-bs-target="#partisipan" type="button" role="tab" aria-controls="partisipan" aria-selected="false">Participant</a>
                         </li>
                         
                     </ul>
