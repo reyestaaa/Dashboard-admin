@@ -15,9 +15,12 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
-        <Route path="/schadule" element={<Schadule />} />
-        <Route path="/schadule/add" element={<SchaduleAdd />} />
-        <Route path="/schadule/content" element={<Content />} />
+
+        <Route path="schadule" element={<Schadule />} >
+          <Route path="add" element={<SchaduleAdd />} />
+          <Route path="content" element={<Content />} />
+        </Route>
+
         <Route path="/trainer" element={<Trainer />} />
         <Route path="/login/admin" element={<Login/>} />
         <Route path="/login/participant" element={<LoginParticipant/>} />
