@@ -3,13 +3,16 @@ import { Button, InputGroup } from "react-bootstrap";
 function LoginParticipant() {
     return (
 
-        <div style={{ marginTop: "100px" }}>
-            <div className="container">
+
+        
+
+     <div className="vh-100 colog" >
+        <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-6">
-                        <div className="card p-4">
+                        <div className="card p-4 shadow" style={{ marginTop: "70px" }}>
                             <div className="card-body">
-                                <div className=" bd-highlight">
+                                <div className="bd-highlight">
                                     <h4>Hi, Welcome</h4>
                                 </div>
                                 <div className="newaccount">
@@ -36,8 +39,8 @@ function LoginParticipant() {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div >
+        </div>
+    </div >
     )
 }
 

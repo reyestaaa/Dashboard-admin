@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -154,3 +154,13 @@ body {
 .modal-lg{
   height: 80vh;
 }
+
+.colog {
+  background: #68DA8F;
+  /* background: -webkit-linear-gradient(to right,#a7d7b7 , #68DA8F);
+  background: linear-gradient(to right, #a7d7b7, #68DA8F) */
+}
+
+/* .dropdown:hover > .dropdown-menu{
+  display: block;
+} */

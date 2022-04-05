@@ -2,11 +2,11 @@ import { Button, InputGroup } from "react-bootstrap";
 
 function Login(){
     return(
-        <div style={{marginTop: "100px"}}>
-            <div className="container">
+        <div className="vh-100 colog">
+            <div className="container colog">
                 <div className="row justify-content-center">
                     <div className="col-md-6">
-                        <div className="card p-4">
+                        <div className="card p-4 shadow" style={{marginTop: "120px"}}>
                             <div className="card-body">
                                 <div className=" bd-highlight">
                                     <h4>Hi, Welcome</h4>

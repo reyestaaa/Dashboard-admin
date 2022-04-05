@@ -16,14 +16,14 @@ function Sidebar() {
                     <h3 className="fw-bold text-center"> <i class='bx bxs-dashboard'></i> Dashboard</h3>
                     <ul className="nav flex-column mt-5">
 
-                        <div className="dropdown mt-3 text-center">
-                            <a className="btn btn-success dropdown-toggle btn-lg shadow border-0 fw-bold p-3" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div className="dropdown  mt-3 text-center">
+                            <a className="btn btn-success dropdown-toggle btn-lg shadow-sm fw-bold p-3" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class='bx bx-box'></i> Training
                             </a>
 
-                            <ul className="dropdown-menu bg-primary border-0 mt-3" aria-labelledby="dropdownMenuLink">
-                                <li><NavLink exact activeClassName="text-light" className=" dropdown-item fs-5 mb-3" to="/schadule"> <i class='bx bxs-calendar'></i> Schadule</NavLink></li>
-                                <li><NavLink activeClassName="text-light"   className=" dropdown-item fs-5" to="/trainer"> <i class='bx bxs-user'></i> Trainer</NavLink></li>
+                            <ul className="dropdown-menu bg-primary border-0 mt-1" aria-labelledby="dropdownMenuLink">
+                                <li><NavLink exact activeClassName="text-light" className=" dropdown-item   fs-5 mb-3" to="/schadule"> <i class='bx bxs-calendar'></i> Schadule</NavLink></li>
+                                <li><NavLink activeClassName="text-light"   className=" dropdown-item   fs-5" to="/trainer"> <i class='bx bxs-user'></i> Trainer</NavLink></li>
                             </ul>
                         </div>
 

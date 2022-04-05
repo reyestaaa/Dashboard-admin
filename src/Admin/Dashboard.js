@@ -3,8 +3,6 @@ import Sidebar from '../Components/Sidebar';
 
 function Dashboard(props) {
     return (
-<>
-
         <div className="container-fluid">
             <div className="row">
                 <Sidebar />
@@ -16,7 +14,6 @@ function Dashboard(props) {
                 </main>
             </div>
         </div>
-</>
 
     );
 }
