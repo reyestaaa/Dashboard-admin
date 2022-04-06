@@ -83,11 +83,6 @@ function Content(props) {
                                             <td>Jonatan@gmail.comr</td>
                                             </tr>
                                             <tr>
-                                            <td>Jonatan Liem</td>
-                                            <td>Business Analyst</td>
-                                            <td>081236789789</td>
-                                            <td>Jonatan@gmail.comr</td>
-                                            </tr>
                                             
                                         </tbody>
                                         </table>
