@@ -38,9 +38,8 @@ function IndexAdd(props) {
             dateclose: dateclose,
             timeclose: timeclose
         }
-        console.log(eventNew);
-
-        // await fetch('http://localhost:8080/event', {
+        
+        // await fetch(`http://localhost:8080/event`, {
         //     method: "POST",
         //     body: JSON.stringify(eventNew),
         //     headers: {
