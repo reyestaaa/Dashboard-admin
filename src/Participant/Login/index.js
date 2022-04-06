@@ -3,9 +3,6 @@ import { Button, InputGroup } from "react-bootstrap";
 function LoginParticipant() {
     return (
 
-
-        
-
      <div className="vh-100 colog" >
         <div className="container">
                 <div className="row justify-content-center">

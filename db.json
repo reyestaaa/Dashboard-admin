@@ -1,0 +1,19 @@
+{
+    "event":[
+        {
+            "programname": "", 
+            "description": "", 
+            "locationtype": "", 
+            "location" : "",
+            "trainernames": "",
+            "totalparticipant": "",
+            "startdate": "",
+            "enddate": "",
+            "starttime": "",
+            "endtime": "",
+            "dateclose": "",
+            "timeclose": ""
+
+        }
+    ]
+}

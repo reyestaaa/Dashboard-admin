@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidebar from "../../Components/Sidebar";
+import { BsCaretRightFill } from "react-icons/bs";
 
 function Content(props) {
     return (
@@ -9,7 +10,7 @@ function Content(props) {
                 
                 <main className="col-md-9 ms-sm-auto col-lg-9 px-md-4">
                     <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom text-muted fs-5 mt-2 fw-bold">
-                        <p className="">Training > Schadule</p>
+                        <p className="">Training <BsCaretRightFill/> Schadule</p>
                     </div>
                         <div className="container">
                             {/* Link tabs */}

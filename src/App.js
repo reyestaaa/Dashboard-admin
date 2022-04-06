@@ -8,6 +8,7 @@ import Content from "./Admin/Schadule/Content"
 import SchaduleAdd from "./Admin/Schadule/IndexAdd"
 import Login from "./Admin/Login";
 import LoginParticipant from "./Participant/Login";
+import Register from "./Participant/Regist";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/schadule/content" element={<Content />} />
         <Route path="/trainer" element={<Trainer />} />
         <Route path="/login/admin" element={<Login/>} />
+        <Route path="/regist" element={<Register/>} />
         <Route path="/login/participant" element={<LoginParticipant/>} />
         
       </Routes>

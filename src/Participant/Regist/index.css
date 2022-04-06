@@ -1,0 +1,36 @@
+.form-user{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.welcome h1 {
+  text-align: left;
+}
+
+.input-signup {
+  background-color: #cacaca80;
+}
+
+.haveacc {
+  display: flex;
+  justify-content: end;
+}
+
+.btn-centre{
+    margin: auto;
+    width: 50%; 
+}
+
+.btn-forms{
+    width: 100%;
+    justify-content: center;
+    border-radius: 6px 6px 6px 6px;
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+    background-color: #47CC74;
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+}
