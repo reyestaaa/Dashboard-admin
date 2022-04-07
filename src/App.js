@@ -9,7 +9,8 @@ import SchaduleAdd from "./Admin/Schadule/IndexAdd"
 import Login from "./Admin/Login";
 import LoginParticipant from "./Participant/Login";
 import Register from "./Participant/Regist";
-
+import UserPage from "./Participant/Training";
+import Detail from "./Participant/Detail";
 
 function App() {
   return (
@@ -21,8 +22,10 @@ function App() {
         <Route path="/schadule/content" element={<Content />} />
         <Route path="/trainer" element={<Trainer />} />
         <Route path="/login/admin" element={<Login/>} />
-        <Route path="/regist" element={<Register/>} />
+        <Route path="/regist" element={<Register/>} />        
         <Route path="/login/participant" element={<LoginParticipant/>} />
+        <Route path="/userpage" element={<UserPage/>} />
+        <Route path="/detailpage" element={<Detail/>} />
         
       </Routes>
     </Router>

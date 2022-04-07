@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from "react-bootstrap";
 import Sidebar from "../../Components/Sidebar";
 import swal from 'sweetalert';
+import { BsCaretRightFill } from "react-icons/bs";
 
 function Index(props) {
     return (
@@ -11,7 +12,7 @@ function Index(props) {
         <main className="col-md-9 ms-sm-auto col-lg-9 px-md-4 mt-5 mt-lg-0 ">
             <div className=" justify-content-between flex-wrap flex-md-nowrap align-items-center mb-3 border-bottom">
                 <div className="d-flex text-muted fs-5 mt-2 fw-bold p-3 justify-content-between">
-                    <p className="">Training > Trainer</p>
+                    <p className="">Training <BsCaretRightFill/> Trainer</p>
                     <Button  className="btn btn-secondary btn-sm fw-bold shadow" data-bs-toggle="modal" data-bs-target="#exampleModal1">+ Add Trainer</Button>
                 </div>
             

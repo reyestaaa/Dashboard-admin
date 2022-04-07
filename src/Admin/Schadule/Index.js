@@ -59,13 +59,6 @@ function Index(props) {
                                                 <li><Button className="dropdown-item fw-bold"  onClick={() => onDelete()}>Delete</Button></li>
                                             </ul>
                                         </div>
-
-
-                                        <div className="img-card d-flex">
-                                            <img src="./image/Ellipse.png" alt="" className="img-fluid" />
-                                            <img src="./image/Ellipse.png" alt="" className="img-fluid" />
-                                            <img src="./image/Ellipse.png" alt="" className="img-fluid" />
-                                        </div>
                                     </div>
 
                                     {/* Modal */}

@@ -18,9 +18,17 @@ function LoginParticipant() {
                                 <div>
                                     <Button className="buttonGoogle" style={{ marginTop: "30px", width: "100%"}}>Sign with Google</Button>
                                 </div>
+                                <div className="form-group" style={{marginTop:"25px"}}>
+                                    <label for="location-type" className="col-form-label">Role</label>
+                                    <select className="form-select bg-secondary" aria-label="Default select example">
+                                        <option selected>Choose Role</option>
+                                        <option value="1">Admin</option>
+                                        <option value="2">User</option>
+                                    </select>
+                                </div>
                                 <div className="form-group" style={{ marginTop: "25px" }}>
                                     <label>Email</label>
-                                    <input type="text" id="basic-addon1" className="form-control fa-envelope"></input>
+                                    <input type="text" id="basic-addon1" className="form-control fa-envelope" ></input>
                                 </div>
                                 <div className="form-group" style={{ marginTop: "10px" }}>
                                     <label>Password</label>
