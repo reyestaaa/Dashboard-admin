@@ -190,7 +190,7 @@ function Index(props) {
 }
 
 // Delete sweetAlert
-const onDelete = value => {
+const onDelete = () => {
     swal({
         title: "Are you sure?",
         buttons: true,
@@ -206,7 +206,7 @@ const onDelete = value => {
         }
       });
 }
-const Edit = value => {
+const Edit = () => {
     swal({
         title: "Edited successfully!!",
         icon: "success",
@@ -215,7 +215,7 @@ const Edit = value => {
         window.location = "http://localhost:3000/schadule";
     });
 }
-const Reschadule = value => {
+const Reschadule = () => {
     swal({
         text: "The schedule change was successful!",
         icon: "success",

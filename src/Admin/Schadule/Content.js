@@ -82,7 +82,6 @@ function Content(props) {
                                             <td>081236789789</td>
                                             <td>Jonatan@gmail.comr</td>
                                             </tr>
-                                            <tr>
                                             
                                         </tbody>
                                         </table>

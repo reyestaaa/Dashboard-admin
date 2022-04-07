@@ -143,7 +143,7 @@ function IndexAdd(props) {
     );
 }
 
-const SuccessAdd = value => {
+const SuccessAdd = () => {
     swal({
         title: "Well Done!",
         text: "You have successfully created!",
